@@ -34,9 +34,9 @@ const Navbar = () => {
         {/* <div className=' w-full  h-max flex items-center justify-end '>
           <img src= {Pl1} alt='Just a Placeholder' className=' object-contain w-full h-full' />
         </div> */}
-        <nav className='flex'>
-          <div className=''>
-            <ul className='flex flex-row gap-6 text-grey-600 font-semibold'>
+        <nav className='flex gap-80 font-poppins'>
+          <div className='flex'>
+            <ul className='flex gap-6 font-semibold'>
               <li><button>Home</button></li>
               <li><button>Shop</button></li>
               <li><button>British Brands</button></li>
@@ -45,7 +45,7 @@ const Navbar = () => {
             </ul>
           </div>
           <div>
-            <ul className='flex flex-row gap-6 text-grey-600 font-semibold'>
+            <ul className='flex gap-6 font-semibold'>
               <li>icon</li>
               <li>icon</li>
               <li>icon</li>
