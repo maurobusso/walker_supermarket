@@ -6,7 +6,7 @@ import { Account, Address, Community, Health, Mealplanner } from './Pages/Page';
 
 function App() {
   return (
-    <div className=' relative max-h-screen box-border '>
+    <div className='relative max-h-screen box-border'>
     <NavBar/>
     <BrowserRouter >
       <Sidebar>
